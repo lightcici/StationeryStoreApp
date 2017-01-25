@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/activity_my_listing"
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:id="@+id/activity_my_listing"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--android:paddingTop="@dimen/activity_vertical_margin"-->
+<!--tools:context="com.example.gi.stationerystore.ReportDiscrepancyActivity">-->
+
+
+<!--</RelativeLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:paddingBottom="@dimen/activity_vertical_margin"
-android:paddingLeft="@dimen/activity_horizontal_margin"
-android:paddingRight="@dimen/activity_horizontal_margin"
-android:paddingTop="@dimen/activity_vertical_margin"
-tools:context="com.example.gi.stationerystore.ReportDiscrepancyActivity">
+android:layout_height="match_parent">
+ 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Category:"
+    android:id="@+id/textView1"
+    android:textSize="18sp"
+    android:layout_weight="1" />
 
-</RelativeLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="1"
+        android:hint="Type in..." />
 
+    <Button
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="1" />
+</LinearLayout>

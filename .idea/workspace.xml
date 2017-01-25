@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4cedd31-ccb5-4139-8310-e4faae0e372f" name="Default" comment="" />
+    <list default="true" id="e3543747-3a53-4908-86dc-57b5c2b3f986" name="Default" comment="" />
     <ignored path="StationeryStoreApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,71 +31,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_report_discrepancy.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_discrepancy.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-              <folding>
-                <element signature="e#294#327#0" expanded="true" />
-                <element signature="e#348#383#0" expanded="true" />
-                <element signature="e#405#440#0" expanded="true" />
-                <element signature="e#460#493#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportDiscrepancyActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReportDiscrepancyActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ReportDiscrepancyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="598">
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#1355#2255#0" expanded="true" />
+                <element signature="e#2254#2255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listing.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listing.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
+      <file leaf-file-name="activity_item_details.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
+              <folding>
+                <element signature="e#942#975#0" expanded="true" />
+                <element signature="e#996#1031#0" expanded="true" />
+                <element signature="e#1053#1088#0" expanded="true" />
+                <element signature="e#1108#1141#0" expanded="true" />
+                <marker date="1485348281824" expanded="false" signature="355:388" ph="&quot;16dp&quot;" />
+                <marker date="1485348281824" expanded="false" signature="420:455" ph="&quot;16dp&quot;" />
+                <marker date="1485348281824" expanded="false" signature="488:523" ph="&quot;16dp&quot;" />
+                <marker date="1485348281824" expanded="false" signature="554:587" ph="&quot;16dp&quot;" />
+              </folding>
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="ItemDetailsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ItemDetailsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -104,13 +81,53 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1057">
-              <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+            <state relative-caret-position="1539">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding>
                 <element signature="e#820#826#0" expanded="true" />
                 <element signature="e#1542#1548#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Discrepancy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/Discrepancy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/JSONParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="78" column="28" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_report_discrepancy.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_discrepancy.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <marker date="1485345809329" expanded="false" signature="333:366" ph="&quot;16dp&quot;" />
+                <marker date="1485345809329" expanded="false" signature="394:429" ph="&quot;16dp&quot;" />
+                <marker date="1485345809329" expanded="false" signature="458:493" ph="&quot;16dp&quot;" />
+                <marker date="1485345809329" expanded="false" signature="520:553" ph="&quot;16dp&quot;" />
+              </folding>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1782,12 +1799,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/Item.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ReportDiscrepancy.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/listing.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_report_discrepancy.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ReportDiscrepancyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ItemDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/Discrepancy.java" />
       </list>
     </option>
   </component>
@@ -1821,9 +1837,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1905,14 +1920,11 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1921,6 +1933,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlEditorPanel.WIDTH" value="305" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2223,16 +2236,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b4cedd31-ccb5-4139-8310-e4faae0e372f" name="Default" comment="" />
-      <created>1485334935146</created>
+      <changelist id="e3543747-3a53-4908-86dc-57b5c2b3f986" name="Default" comment="" />
+      <created>1485344358643</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1485334935146</updated>
+      <updated>1485344358643</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1934" height="1030" extended-state="0" />
+    <frame x="-10" y="0" width="1934" height="1030" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2277,10 +2290,87 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_discrepancy.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <marker date="1485345809329" expanded="false" signature="333:366" ph="&quot;16dp&quot;" />
+            <marker date="1485345809329" expanded="false" signature="394:429" ph="&quot;16dp&quot;" />
+            <marker date="1485345809329" expanded="false" signature="458:493" ph="&quot;16dp&quot;" />
+            <marker date="1485345809329" expanded="false" signature="520:553" ph="&quot;16dp&quot;" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#942#975#0" expanded="true" />
+            <element signature="e#996#1031#0" expanded="true" />
+            <element signature="e#1053#1088#0" expanded="true" />
+            <element signature="e#1108#1141#0" expanded="true" />
+            <marker date="1485348281824" expanded="false" signature="355:388" ph="&quot;16dp&quot;" />
+            <marker date="1485348281824" expanded="false" signature="420:455" ph="&quot;16dp&quot;" />
+            <marker date="1485348281824" expanded="false" signature="488:523" ph="&quot;16dp&quot;" />
+            <marker date="1485348281824" expanded="false" signature="554:587" ph="&quot;16dp&quot;" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ReportDiscrepancyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#1355#2255#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_details.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
+          <folding>
+            <element signature="e#942#975#0" expanded="true" />
+            <element signature="e#996#1031#0" expanded="true" />
+            <element signature="e#1053#1088#0" expanded="true" />
+            <element signature="e#1108#1141#0" expanded="true" />
+            <marker date="1485348281824" expanded="false" signature="355:388" ph="&quot;16dp&quot;" />
+            <marker date="1485348281824" expanded="false" signature="420:455" ph="&quot;16dp&quot;" />
+            <marker date="1485348281824" expanded="false" signature="488:523" ph="&quot;16dp&quot;" />
+            <marker date="1485348281824" expanded="false" signature="554:587" ph="&quot;16dp&quot;" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ItemDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state relative-caret-position="1539">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding>
             <element signature="e#820#826#0" expanded="true" />
             <element signature="e#1542#1548#0" expanded="true" />
@@ -2288,63 +2378,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/Discrepancy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listing.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_discrepancy.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        <state relative-caret-position="594">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
-            <element signature="e#294#327#0" expanded="true" />
-            <element signature="e#348#383#0" expanded="true" />
-            <element signature="e#405#440#0" expanded="true" />
-            <element signature="e#460#493#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/ReportDiscrepancyActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gi/stationerystore/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="945">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
