@@ -31,4 +31,8 @@ public class Discrepancy extends HashMap<String,String> {
     {
         return JSONParser.getStream(host+"/GetMaxPrice/"+itemID);
     }
+    public static String getMaxDiscrepancyId()
+    {
+        return  JSONParser.getStream(host+"GetMaxDiscrepancyId");
+    }
 }

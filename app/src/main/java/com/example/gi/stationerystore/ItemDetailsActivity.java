@@ -1,7 +1,9 @@
 package com.example.gi.stationerystore;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +12,9 @@ import android.widget.EditText;
 import android.widget.SimpleAdapter;
 import android.widget.Spinner;
 
+import java.util.Date;
 import java.util.List;
+import java.text.SimpleDateFormat;
 
 public class ItemDetailsActivity extends Activity {
 
@@ -19,8 +23,12 @@ public class ItemDetailsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_details);
 
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        final String user = pref.getString("user","null");
         String itemID = getIntent().getExtras().getString("ItemID");
         String description=getIntent().getExtras().getString("Description");
+        Date now = new Date(System.currentTimeMillis());
+        String status="Pending Approval";
 
         Button submit=(Button) findViewById(R.id.submit);
         EditText id=(EditText) findViewById(R.id.editText1);
@@ -41,14 +49,18 @@ public class ItemDetailsActivity extends Activity {
             }
         }.execute(itemID);
 
-//        submit.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                new AsyncTask<String, Void, List<Item>>() {
+        submit.setOnClickListener(new View.OnClickListener() {
+            String discrepancyId=Discrepancy.getMaxDiscrepancyId();
+            @Override
+            public void onClick(View v) {
+
+//                new AsyncTask<String[], Void, List<Item>>() {
 //                    @Override
-//                    protected List<Item> doInBackground(String... params) {
-//                        return Item.searchItemList(params[0]);
+//                    protected List<Item> doInBackground(String[]... params) {
+//
+//
+//                        String[] saveDisParameter={discrepancyId,};
+//                        return Item.searchItemList(params[0],params[1]);
 //                    }
 //                    @Override
 //                    protected void onPostExecute(List<Item> result) {
@@ -58,7 +70,7 @@ public class ItemDetailsActivity extends Activity {
 //                        setListAdapter(adapter);
 //                    }
 //                }.execute(s);
-//            }
-//        });
+            }
+        });
     }
 }
