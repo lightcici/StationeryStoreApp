@@ -15,15 +15,15 @@ import java.util.List;
 
 public class Item extends HashMap<String,String>{
 
-    final static String host = "http://192.168.0.196/StationeryStore/Service.svc";
+    final static String host = "http://10.10.24.204/StationeryStore/Service.svc";
 
-    public Item(String Category, String Description, String UOM, String InStock, String ItemID, String ReorderLevel) {
+    public Item(String ItemID, String Category, String Description, String ReorderLevel, String InStock, String UOM) {
+        put("ItemID", ItemID);
         put("Category", Category);
         put("Description", Description);
-        put("UOM", UOM);
-        put("InStock", InStock);
-        put("ItemID", ItemID);
         put("ReorderLevel", ReorderLevel);
+        put("InStock", InStock);
+        put("UOM", UOM);
     }
 
     public Item(){}
@@ -40,7 +40,7 @@ public class Item extends HashMap<String,String>{
                         c.getString("Description"),
                         c.getString("ReorderLevel"),
                         c.getString("InStock"),
-                        c.getString("GUOM"));
+                        c.getString("UOM"));
                 list.add(item);
             }
         } catch (Exception e) {
@@ -60,7 +60,7 @@ public class Item extends HashMap<String,String>{
                         c.getString("Description"),
                         c.getString("ReorderLevel"),
                         c.getString("InStock"),
-                        c.getString("GUOM"));
+                        c.getString("UOM"));
                 list.add(item);
             }
         } catch (Exception e) {

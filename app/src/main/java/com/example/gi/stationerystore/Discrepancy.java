@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Discrepancy extends HashMap<String,String> {
 
-    final static String host = "http://192.168.0.196/StationeryStore/Service.svc";
+    final static String host = "http://10.10.24.204/StationeryStore/Service.svc";
 
     public Discrepancy(String Description, String DiscrepancyId,String ItemCode,String Quantity,String Reason, String Status) {
         put("Description", Description);
@@ -27,14 +27,8 @@ public class Discrepancy extends HashMap<String,String> {
 
     public Discrepancy(){}
 
-//    public static DecimalFormat getMaxPrice(String itemID)
-//    {
-//        try {
-//            String s= JSONParser.getStream(host+"/GetMaxPrice/"+itemID);
-//            return DecimalFormat.
-//
-//        } catch (Exception e) {
-//        }
-//    }
-
+    public static String getMaxPrice(String itemID)
+    {
+        return JSONParser.getStream(host+"/GetMaxPrice/"+itemID);
+    }
 }
