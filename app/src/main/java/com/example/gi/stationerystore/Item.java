@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Item extends HashMap<String,String>{
 
-    final static String host = "http://10.10.24.204/StationeryStore/Service.svc";
+    final static String host = "http://10.10.24.57/StationeryStore/Service.svc";
 
     public Item(String ItemID, String Category, String Description, String ReorderLevel, String InStock, String UOM) {
         put("ItemID", ItemID);
