@@ -42,6 +42,7 @@ public class ReportDiscrepancyActivity extends Activity implements AdapterView.O
                         R.layout.row, R.id.textView1, a);
                 ListView list = (ListView) findViewById(R.id.listView1);
                 list.setAdapter(adapter);
+                list.setOnItemClickListener(ReportDiscrepancyActivity.this);
             }
         }.execute();
 
@@ -71,6 +72,7 @@ public class ReportDiscrepancyActivity extends Activity implements AdapterView.O
             }
         });
     }
+
 
 @Override
     public void onItemClick(AdapterView<?> av, View v, int position, long id) {
