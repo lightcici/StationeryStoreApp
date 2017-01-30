@@ -16,6 +16,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DateFormat;
 import java.util.Date;
 import java.util.List;
 import java.text.SimpleDateFormat;
@@ -33,13 +34,16 @@ public class ItemDetailsActivity extends Activity {
         String discrepancyId;
         final String itemID = getIntent().getExtras().getString("ItemID");
         final String description=getIntent().getExtras().getString("Description");
-        EditText r=(EditText) findViewById(R.id.editText4);
-        EditText q=(EditText) findViewById(R.id.editText);
-        Date n = new Date(System.currentTimeMillis());
-        final String now=n.toString();
+        final EditText r=(EditText) findViewById(R.id.editText4);
+        final EditText q=(EditText) findViewById(R.id.editText);
+        final TextView quantity=(TextView) findViewById(R.id.quantity);
+        final TextView reason=(TextView) findViewById(R.id.reason);
+
+
+        SimpleDateFormat sDateFormat=new SimpleDateFormat("yyyy-MM-dd    hh:mm:ss");
+        final String now=sDateFormat.format(new java.util.Date());
         final String status="Pending Approval";
-        final String reason=r.getText().toString();
-        final String quantity=q.getText().toString();
+
 
         Button submit=(Button) findViewById(R.id.submit);
         EditText id=(EditText) findViewById(R.id.editText1);
@@ -60,6 +64,7 @@ public class ItemDetailsActivity extends Activity {
                 value.setText(result);
             }
         }.execute(itemID);
+
         new AsyncTask<Void, Void, String>() {
             @Override
             protected String doInBackground(Void... params) {
@@ -67,6 +72,7 @@ public class ItemDetailsActivity extends Activity {
             }
             @Override
             protected void onPostExecute(String result) {
+
                 discId.setText(result);
             }
         }.execute();
@@ -75,23 +81,36 @@ public class ItemDetailsActivity extends Activity {
             @Override
             public void onClick(View v) {
                 discId.getText();
-                String[] a= discId.getText().toString().split("\"");
-                int b=Integer.parseInt( a[0]);
-                b=b+1;
-                String discrepancyid= String.valueOf(b);
-                Discrepancy discrepancy=new Discrepancy(discrepancyid,user,itemID,description,quantity,reason,status,now);
-                new AsyncTask<Discrepancy, Void, Void>() {
-                    @Override
-                    protected Void doInBackground(Discrepancy... params) {
-                        Discrepancy.saveDiscrepancy(params[0]);
-                        return null;
-                    }
-                    @Override
-                    protected void onPostExecute(Void result) {
-                        Toast.makeText(ItemDetailsActivity.this,"Updated Successfully!",Toast.LENGTH_LONG).show();
-                    }
-                }.execute(discrepancy);
-                startActivity(new Intent(ItemDetailsActivity.this, ReportDiscrepancyActivity.class));
+                String[] a= {discId.getText().toString()};
+                String s= a[0].substring(1,6);
+                if(quantity.getText().toString().equals(""))
+                {
+                    quantity.setText("Please Key In Quantity!");
+                    quantity.setTextColor(android.graphics.Color.RED);
+                    quantity.setVisibility(View.VISIBLE);
+                }
+                else if(reason.getText().toString().equals(""))
+                {
+                    reason.setText("Please Key In Reason!");
+                    reason.setTextColor(android.graphics.Color.RED);
+                    reason.setVisibility(View.VISIBLE);
+                }
+                else if(quantity.getText().toString()!=""&& reason.getText().toString()!="")
+                {
+                    Discrepancy discrepancy=new Discrepancy(s,user,itemID,description,q.getText().toString(),r.getText().toString(),status,now);
+                    new AsyncTask<Discrepancy, Void, Void>() {
+                        @Override
+                        protected Void doInBackground(Discrepancy... params) {
+                            Discrepancy.saveDiscrepancy(params[0]);
+                            return null;
+                        }
+                        @Override
+                        protected void onPostExecute(Void result) {
+                            Toast.makeText(ItemDetailsActivity.this,"Updated Successfully!",Toast.LENGTH_LONG).show();
+                        }
+                    }.execute(discrepancy);
+                    startActivity(new Intent(ItemDetailsActivity.this, ReportDiscrepancyActivity.class));
+                }
             }
         });
     }

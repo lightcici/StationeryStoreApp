@@ -3,42 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_af1b205fce0ee59822573283cefd9b335121faaf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_63fa4935a24e630974ee2405eb87a9367ec72290\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_1ebefa9ac7a31fc7a1c6297e24fea9a18b871c1e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7adccbabd1aeaadae43adb1dc98929ca76f878c3">
-        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4438dd7357a229c165f620fd578fa45043d761e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +12,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_af1b205fce0ee59822573283cefd9b335121faaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_3751bb5aeae8d96bcdf3c20d60cbc44d31dd4b8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_63fa4935a24e630974ee2405eb87a9367ec72290\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,6 +75,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_1ebefa9ac7a31fc7a1c6297e24fea9a18b871c1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -106,8 +97,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9a47cfb6f6b8abc6a5a611527da0794d7a4e5fad">
+        sha1="7bbaf746d57ab9bc4da6ce2ed984fa22a60338ff">
         <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8fb3a639ea05c59a17ae0bc07ad7d15df4618013\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0dfe56f49b2cc69c5cdb788072c8dfbf251ef033">
+        <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4438dd7357a229c165f620fd578fa45043d761e\classes.dex" />
     </item>
 
 </items>

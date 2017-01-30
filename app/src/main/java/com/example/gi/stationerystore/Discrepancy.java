@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Discrepancy extends HashMap<String,String> {
 
-    final static String host = "http://10.10.24.57/StationeryStore/Service.svc";
+    final static String host = "http://192.168.1.178/StationeryStore/Service.svc";
 
     public Discrepancy(String DiscrepancyId, String StaffId, String ItemCode,String Description, String Quantity, String Reason, String Status,String Now) {
         put("DiscrepancyId", DiscrepancyId);
