@@ -46,6 +46,7 @@ public class ReportDiscrepancyActivity extends Activity implements AdapterView.O
             }
         }.execute();
 
+
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -144,7 +144,7 @@ tools:context="com.example.gi.stationerystore.ItemDetailsActivity">
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:padding="6dp"
             android:text=""
-            android:visibility="gone"
+            android:visibility="invisible"
             android:id="@+id/quantity"/>
 
     </TableRow>

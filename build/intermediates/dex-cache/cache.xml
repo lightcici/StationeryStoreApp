@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7bbaf746d57ab9bc4da6ce2ed984fa22a60338ff">
+        sha1="1dd96db877fb14f837a0f19a03284d629e82c263">
         <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8fb3a639ea05c59a17ae0bc07ad7d15df4618013\classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0dfe56f49b2cc69c5cdb788072c8dfbf251ef033">
+        sha1="b1c10d3a5c9e0dd58daa7c33730e8b93d0ba77a5">
         <dex dex="C:\Users\PAN PAN\Documents\GitHub\StationeryStoreApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4438dd7357a229c165f620fd578fa45043d761e\classes.dex" />
     </item>
 

@@ -80,22 +80,29 @@ public class ItemDetailsActivity extends Activity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                discId.getText();
                 String[] a= {discId.getText().toString()};
                 String s= a[0].substring(1,6);
-                if(quantity.getText().toString().equals(""))
+                if(q.getText().toString().equals("")&&r.getText().toString().equals(""))
                 {
                     quantity.setText("Please Key In Quantity!");
                     quantity.setTextColor(android.graphics.Color.RED);
                     quantity.setVisibility(View.VISIBLE);
                 }
-                else if(reason.getText().toString().equals(""))
+                else if(q.getText().toString().equals(""))
                 {
+                    reason.setVisibility(View.GONE);
+                    quantity.setText("Please Key In Quantity!");
+                    quantity.setTextColor(android.graphics.Color.RED);
+                    quantity.setVisibility(View.VISIBLE);
+                }
+                else if(r.getText().toString().equals(""))
+                {
+                    quantity.setVisibility(View.GONE);
                     reason.setText("Please Key In Reason!");
                     reason.setTextColor(android.graphics.Color.RED);
                     reason.setVisibility(View.VISIBLE);
                 }
-                else if(quantity.getText().toString()!=""&& reason.getText().toString()!="")
+                else
                 {
                     Discrepancy discrepancy=new Discrepancy(s,user,itemID,description,q.getText().toString(),r.getText().toString(),status,now);
                     new AsyncTask<Discrepancy, Void, Void>() {
